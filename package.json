@@ -1,0 +1,30 @@
+{
+  "name": "line-segment-intersection",
+  "version": "1.0.0",
+  "description": "Get the intersection point of two line segments",
+  "main": "line-segment-intersection.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evelios/line-segment-intersection.git"
+  },
+  "keywords": [
+    "geometry",
+    "line",
+    "segment",
+    "intersection",
+    "2D",
+    "vector"
+  ],
+  "author": "Thomas Waters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evelios/line-segment-intersection/issues"
+  },
+  "homepage": "https://github.com/Evelios/line-segment-intersection#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
