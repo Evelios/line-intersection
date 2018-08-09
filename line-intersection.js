@@ -30,20 +30,8 @@ module.exports = function intersection(line1, line2) {
   else {
     const x = (B2 * C1 - B1 * C2) / det;
     const y = (A1 * C2 - A2 * C1) / det;
-
-    const onLine1 = (Math.min(l1_p1[0], l1_p2[0]) < x || fequals(Math.min(l1_p1[0], l1_p2[0]), x)) &&
-                    (Math.max(l1_p1[0], l1_p2[0]) > x || fequals(Math.max(l1_p1[0], l1_p2[0]), x)) &&
-                    (Math.min(l1_p1[1], l1_p2[1]) < y || fequals(Math.min(l1_p1[1], l1_p2[1]), y)) &&
-                    (Math.max(l1_p1[1], l1_p2[1]) > y || fequals(Math.max(l1_p1[1], l1_p2[1]), y));
-
-    const onLine2 = (Math.min(l2_p1[0], l2_p2[0]) < x || fequals(Math.min(l2_p1[0], l2_p2[0]), x)) &&
-                    (Math.max(l2_p1[0], l2_p2[0]) > x || fequals(Math.max(l2_p1[0], l2_p2[0]), x)) &&
-                    (Math.min(l2_p1[1], l2_p2[1]) < y || fequals(Math.min(l2_p1[1], l2_p2[1]), y)) &&
-                    (Math.max(l2_p1[1], l2_p2[1]) > y || fequals(Math.max(l2_p1[1], l2_p2[1]), y));
-
-    if (onLine1 && onLine2) {
+    
       return [x, y];
-    }
   }
   return false;
 
