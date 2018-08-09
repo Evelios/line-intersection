@@ -1,7 +1,7 @@
 {
   "name": "line-segment-intersection",
   "version": "1.0.0",
-  "description": "Get the intersection point of two line segments",
+  "description": "Get the intersection point of two lines",
   "main": "line-segment-intersection.js",
   "scripts": {
     "test": "node test.js"
