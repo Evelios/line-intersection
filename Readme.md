@@ -10,7 +10,7 @@ const line = [ [x1, y1], [x2, y2] ];
 ### Usage with Node's CJS Format
 
 ```js
-const getLineIntersection = require('line-segment-intersection');
+const getLineIntersection = require('line-intersection');
 
 const line1 = [[1, 0], [1, 4]];
 const line2 = [[0, 2], [3, 2]];
